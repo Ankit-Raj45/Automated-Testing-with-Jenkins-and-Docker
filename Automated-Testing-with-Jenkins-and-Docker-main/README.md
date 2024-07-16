@@ -4,7 +4,7 @@ This repository demonstrates a Jenkins pipeline implementation for achieving con
 
 ## Introduction
 
-The CI/CD pipeline provided here allows you to automate the process of building, testing, and deploying your application whenever changes are pushed to the GitHub repository. Jenkins, an open-source automation server, is used as the orchestrator for the pipeline. Docker, a popular containerization platform, is utilized to manage the deployment process.
+Automated testing with Jenkins and Docker optimizes software development workflows by seamlessly integrating continuous integration and deployment. Jenkins orchestrates the automated testing process, while Docker ensures consistent and isolated testing environments. This combination allows for rapid provisioning of testing environments, facilitates parallel testing, and enhances overall software quality. By automating the setup and execution of tests within Docker containers managed by Jenkins, teams achieve faster feedback cycles and improved reliability in their software releases.
 
 ## Prerequisites
 
@@ -156,7 +156,8 @@ To get started with this CI/CD pipeline, follow the steps below:
     ```
 Run the Jenkins job and verify the successful execution of the pipeline.
 
-![1](https://github.com/kamleshrawat/Automated-Testing-with-Jenkins-and-Docker/assets/108130020/fc9b8c88-3090-4fcb-bd0f-a0236d83d6b3)
+
+![Screenshot (89)](https://github.com/user-attachments/assets/4857453b-1463-4a3c-85d5-add02d6a5e9c)
 
 
 *Application is running, and whenever a developer commits changes to the GitHub repository, it will automatically get deployed to the application.*
