@@ -119,12 +119,13 @@ sudo systemctl restart jenkins
 
 ## Pipeline Overview
 
-The Jenkins pipeline is triggered by a webhook configured on the GitHub repository. Whenever a developer pushes changes to the repository, the pipeline is initiated, and the following steps are executed:
+A pipeline in software development refers to a series of automated steps that outline the continuous integration and delivery (CI/CD) process. It typically encompasses building, testing, and deploying code changes.
 
-1. The pipeline checks if there is a running Docker container for the application.
-2. If a container is running, the pipeline copies the updated files from the Jenkins workspace to the running container, ensuring the changes are immediately reflected.
-3. If no running container is found, the pipeline builds a new Docker image using the code from the GitHub repository and deploys it as a new container on the Amazon EC2 Linux machine.
-4. The deployed application can then be accessed on the target machine through the specified port.
+In CI/CD pipelines, stages are executed sequentially, ensuring code quality through automated testing and maintaining consistency across environments with tools like Jenkins, GitLab CI/CD, or GitHub Actions. Pipelines promote collaboration and efficiency by automating repetitive tasks and providing rapid feedback on code changes.
+
+Key components include defining stages (e.g., build, test, deploy), specifying triggers (e.g., commits to specific branches), integrating with version control systems for source code management, and incorporating automated testing frameworks (e.g., JUnit, Selenium).
+
+Pipelines enhance software development by reducing manual errors, accelerating time-to-market, and fostering a culture of continuous improvement through iterative development cycles. They are integral to modern software development practices, enabling teams to deliver reliable and high-quality software more efficiently.
 
 ## Getting Started
 
