@@ -140,7 +140,7 @@ To get started with this CI/CD pipeline, follow the steps below:
 3. Configure Jenkins by accessing its web interface.
 4. Create a new Jenkins job and configure it as follows:
    - Set the job type to "Freestyle Project".
-   - Connect it to your GitHub repository (https://github.com/kamleshrawat/Automated-Testing-with-Jenkins-and-Docker.git) and configure the webhook.
+   - Connect it to your GitHub repository (https://github.com/Ankit-Raj45/Automated-Testing-with-Jenkins-and-Docker/tree/main/Automated-Testing-with-Jenkins-and-Docker-main) and configure the webhook.
    - Select "GitHub hook trigger for GITScm polling" as the build trigger.
    - Add an "Execute Shell" build step to the pipeline and use the following code:
    ```bash
